@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: 100px 200px;
+    display: flex;
+    gap: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box {
+    position: absolute;
+    top: 42%;
+    left: 7%;
+}
+.woman {
+    margin-left: -50px;
+}
+
+.header {
+    color: hsl(238, 29%, 16%);
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-header {
+    display: flex;
+    gap: 15%;
+    margin-bottom: 10px;
+}
+.heading {
+    font-size: 18px;
+    color: hsl(238, 29%, 16%);
+    cursor: pointer;
+    font-weight: 700;
+}
+.heading:hover {
+    color: hsl(14, 88%, 65%);
+}
+/* .heading:active {
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+} */
+.arrow {
+    margin-top: 5px;
+    width: 11px;
+    height: 8px;
+    cursor: pointer;
+}
+.extra {
+    margin-left: 70px;
+}
+.extra-2 {
+    margin-left: 30px;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(240, 6%, 50%);
+    width: 75%;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.break {
+    color: hsl(0, 0%, 100%);
+    width: 77%;
+    margin-bottom: 20px;
+}
+
+.visible {
+    display: block;
+}
